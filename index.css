@@ -1,0 +1,40 @@
+            h1 {
+                color: rgb(127, 255, 212);
+            }
+            body {
+                background-color: rgb(249, 246, 242);
+                text-align: center;
+            }
+            
+            .container {
+                width: 80%;
+                margin: 0 auto;
+            }
+            
+            header {
+                background: #55d6aa;
+            }
+            
+            header::after {
+                content: '';
+                display: table;
+                clear: both;
+            }
+            
+            nav {
+                text-align:center;
+            }
+            
+            nav ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            
+            nav li {
+                display: inline-block;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
