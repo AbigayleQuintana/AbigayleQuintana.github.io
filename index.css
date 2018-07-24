@@ -7,7 +7,7 @@
                 text-align: center;
             }
             
-            .container {
+            /*.container {
                 width: 80%;
                 margin: 0 auto;
             }
@@ -15,7 +15,7 @@
             header {
                 background: #55d6aa;
                 /*background: rgb(255, 255, 255);*/
-            }
+            /*}
             
             header::after {
                 content: '';
@@ -39,4 +39,4 @@
                 padding-bottom: 25px;
                 margin-left: 50px;
                 margin-right: 50px;
-            }
+            }*/
