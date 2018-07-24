@@ -4,20 +4,66 @@
         <meta charset="utf-8">
         <title>About Me</title>
         
-        <?php include("includes/navbar.html");?>
+        <!--<?php include("includes/navbar.html");?>-->
         
         <style>
             h2 {
                 color: rgb(0, 232, 15);
             }
             body {
-                <!--background-color: rgb(255, 255, 255);-->
-                background-color: rgb(97, 250, 255);
+                background-color: rgb(255, 255, 255);
+                <!--background-color: rgb(97, 250, 255);-->
+            }
+            
+            .container {
+                width: 80%;
+                margin: 0 auto;
+            }
+            
+            header {
+                background: #55d6aa;
+                /*background: rgb(255, 255, 255);*/
+            }
+            
+            header::after {
+                content: '';
+                display: table;
+                clear: both;
+            }
+            
+            nav {
+                text-align:center;
+            }
+            
+            nav ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            
+            nav li {
+                display: inline-block;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                margin-left: 50px;
+                margin-right: 50px;
             }
         </style>
         
     </head>
     <body>
+        
+        header>
+              <div class="container">
+                  <nav>
+                      <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="about.html">About</a></li>
+                         <li><a href="#">Resume</a></li>
+                      </ul>
+                  </nav>
+              </div>
+          </header>
 
     <h1>Who Am I?</h1>
     
